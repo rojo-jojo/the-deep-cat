@@ -40,8 +40,9 @@ void log_reg(double* w1, double* w2, double* b)
 
 void main() {
     int epochs = 10;
-    for (int i=0; i<epochs; i++)
-    {
-        
-    }
+    char const* fileName = argv[1];
+    FILE* file = fopen(fileName, "r");
+    char line[256];
+
+    while (fgets(line, sizeof(line)))
 }
