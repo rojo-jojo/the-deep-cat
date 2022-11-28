@@ -2,3 +2,4 @@ venv
 .vscode
 cifar-data
 .ipynb_checkpoint*
+*.tar.gz
